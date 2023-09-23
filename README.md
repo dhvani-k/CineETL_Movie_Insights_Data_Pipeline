@@ -10,8 +10,8 @@ CineETL is a robust data pipeline designed to extract, transform, and load movie
 - Provide inflation-adjusted financial insights for genre-based earnings.
 
 ## Data Sources:
-- **Primary Dataset**: ![Movielens dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset) from Kaggle, encompassing 26 million user ratings across 45,000 films.
-- **Supplementary Data**: ![Consumer Price Index](https://fred.stlouisfed.org/series/CUSR0000SS62031) from Fred St. Louis to adjust financial figures for inflation.
+- **Primary Dataset**: [Movielens dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset) from Kaggle, encompassing 26 million user ratings across 45,000 films.
+- **Supplementary Data**: [Consumer Price Index](https://fred.stlouisfed.org/series/CUSR0000SS62031) from Fred St. Louis to adjust financial figures for inflation.
 
 ## Technical Architecture:
 - **Extraction**: Data is sourced using the Kaggle API and direct fetch requests for the St Louis Fred's CPI dataset.
